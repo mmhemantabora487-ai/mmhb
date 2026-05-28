@@ -1,0 +1,495 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+/* BODY */
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#0f0f0f;
+
+    color:white;
+
+    line-height:1.6;
+}
+
+
+
+/* HERO SECTION */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.75),
+    rgba(0,0,0,0.75)),
+
+    url("images/WhatsApp Image 2026-05-27 at 10.22.17 PM.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+}
+
+
+
+/* HERO CONTENT */
+
+.overlay{
+
+    padding:20px;
+}
+
+
+
+/* HERO TITLE */
+
+.hero h1{
+
+    font-size:72px;
+
+    color:#FFD700;
+
+    margin-bottom:20px;
+
+    text-shadow:0 0 20px rgba(255,215,0,0.5);
+}
+
+
+
+/* HERO PARAGRAPH */
+
+.hero p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+    color:#dddddd;
+}
+
+
+
+/* HERO BUTTON */
+
+.hero button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    background:#b8e613;
+
+    color:rgb(7, 4, 12);
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:0 0 20px rgba(0,119,255,0.5);
+}
+
+
+
+/* HERO BUTTON HOVER */
+
+.hero button:hover{
+
+    background:#0fd64b;
+
+    color:rgb(20, 10, 10);
+
+    transform:scale(1.05);
+}
+
+
+
+/* GENERAL SECTION */
+
+section{
+
+    padding:90px 10%;
+}
+
+
+
+/* HEADINGS */
+
+h2{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+    font-size:42px;
+
+    color:#FFD700;
+
+    text-shadow:0 0 10px rgba(255,215,0,0.3);
+}
+
+
+
+/* ABOUT SECTION */
+
+.about{
+
+    background:#0c0808;
+
+    border-top:2px solid #0077ff;
+
+    border-bottom:2px solid #1619d3;
+}
+
+
+
+/* ABOUT TEXT */
+
+.about p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    font-size:18px;
+
+    color:#e6e6ec;
+}
+
+
+
+/* PROJECTS SECTION */
+
+.projects{
+
+    background:#101010;
+
+    border-bottom:blue
+}
+
+
+
+/* PROJECT GRID */
+
+.project-container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+}
+
+
+
+/* PROJECT CARDS */
+
+.card{
+
+    background:#1b1b1b;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,215,0,0.3);
+
+    transition:0.4s;
+}
+
+
+
+/* PROJECT CARD HOVER */
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#0077ff;
+
+    box-shadow:0 0 30px rgba(0,119,255,0.5);
+}
+
+
+
+/* CARD TITLE */
+
+.card h3{
+
+    color:#FFD700;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+}
+
+
+
+/* CARD TEXT */
+
+.card p{
+
+    color:#cccccc;
+}
+
+
+
+/* IMPACT SECTION */
+
+.impact{
+
+    background:#181818;
+    
+    border-top:blue
+
+
+}
+
+
+
+/* IMPACT GRID */
+
+.impact-container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+}
+
+
+
+/* IMPACT BOX */
+
+.impact-box{
+
+    background:#1c1c1c;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    border:1px solid rgba(0,119,255,0.3);
+
+    transition:0.4s;
+}
+
+
+
+/* IMPACT BOX HOVER */
+
+.impact-box:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 25px rgba(255,215,0,0.4);
+}
+
+
+
+/* IMPACT TITLES */
+
+.impact-box h3{
+
+    color:#0077ff;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+}
+
+
+
+/* IMPACT TEXT */
+
+.impact-box p{
+
+    color:#cccccc;
+}
+
+
+
+/* CTA SECTION */
+
+.join{
+
+    text-align:center;
+
+    background:#101010;
+
+    border-top:2px solid #4a0ed6;
+
+    border-bottom:blue
+}
+
+
+
+/* CTA TEXT */
+
+.join p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+    color:#cccccc;
+}
+
+
+
+/* CTA BUTTON */
+
+.join button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    background:#FFD700;
+
+    color:black;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:0 0 20px rgba(255,215,0,0.5);
+}
+
+
+
+/* CTA BUTTON HOVER */
+
+.join button:hover{
+
+    background:#0077ff;
+
+    color:white;
+
+    transform:scale(1.05);
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+    background:black;
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#aaaaaa;
+
+    border-top:1px solid rgba(255,215,0,0.3);
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:768px){
+
+    .hero h1{
+
+        font-size:42px;
+    }
+
+    .hero p{
+
+        font-size:18px;
+    }
+
+    h2{
+
+        font-size:32px;
+    }
+
+    section{
+
+        padding:70px 7%;
+    }
+
+}
+/* LOGO */
+
+.logo{
+
+    position:absolute;
+
+    top:20px;
+
+    left:20px;
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:contain;
+}
+/* NAVBAR */
+
+.navbar{
+
+    position:flex;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    padding:20px 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:1000;
+}
